@@ -11,7 +11,7 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 
 docker rm -f 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-app:latest || true
 
-docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-app:latest
+docker pull 270514764245.dkr.ecr.us-east-1.amazonaws.com/aura-app:AURA-580
 
 # NETWORK_NAME="aura-network"
 
